@@ -19,12 +19,12 @@ body{
 }
 
 .left-section{
-    grid-column: 300px;
+    grid-column: span 1;
     background-color: #242531;
 }
 
 .right-section{
-    grid-column: 300px / 1000px;
+    grid-column: span 1 / span 2;
        background-color: #f7f7f7;
 
 }
